@@ -10,7 +10,7 @@
             <input class="login-item" type="text" id="username" name="username" placeholder="Username"><br><br>
             <input class="login-item" type="password" name="password" placeholder="Password"><br><br>
             <button class="login-item" type="button">Sign In</button><br><br>
-            <h4>No account? <a onclick="register()" href="#">Register Here</a></h4>
+            <h4>No account? <a onclick="toggle()" href="#">Register Here</a></h4>
         </div>
 
         <div class="flex-box" id="register-box" style="display:none;">
@@ -19,8 +19,9 @@
             <input class="login-item" type="password" name="password" placeholder="Password"><br><br>
             <input class="login-item" type="password" name="confirm" placeholder="Confirm Password"><br><br>
             <button class="login-item" type="button">Register</button><br><br>
-            <h4>Have an account? <a onclick="signIn()" href="#">Sign In</a></h4>
+            <h4>Have an account? <a onclick="toggle()" href="#">Sign In</a></h4>
         </div>
+        
         <script src="script.js"></script>
     </body>
 </html>
