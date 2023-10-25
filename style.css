@@ -7,6 +7,7 @@ body{
 }
 
 .flex-box{
+    background-color:white;
     width:50%;
     /*Only one item in body container, so .4 on flex-grow fills 40% of y axis while remaining centered*/
     flex-grow:.4;
